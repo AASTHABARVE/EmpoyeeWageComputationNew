@@ -2,19 +2,30 @@ package com.breidgelabs.employeewage;
 
 public class EmployeeWageComputation {
     public static void main(String args[]) {
-        System.out.println("Daily Wage Calculation");
-                int totalWage = 0;
-                int perHourWage = 20;
-                int fullDayWorkHrs = 8;
+            System.out.println("Employee Wage Calculation");
+            int totalWage = 0;
+            int perHourWage = 20;
+            int fullDayWorkHrs = 8;
+            int partTimeWorkHrs = 4;
 
-                int isPresent = (int) (Math.random() * 10) % 2;
-                if (isPresent == 1) {
-                    System.out.println("Employee is Present");
+            int isPresent = (int) (Math.random() * 10) % 3;
+            switch (isPresent) {
+                case 1:
+                    System.out.println("Emp is Full day present");
                     totalWage = (fullDayWorkHrs * perHourWage);
-                } else {
-                    System.out.println("Employee is Absent");
+                    break;
+                case 2:
+                    System.out.println("Emp doing part time");
+                    totalWage = (partTimeWorkHrs * perHourWage);
+                    break;
+                case 0:
+                    System.out.println("Emp is absent");
                     totalWage = 0;
-                }
-                System.out.println("TOTAL WAGE = " + totalWage);
+                    break;
+                default:
+                    System.out.println("!!!Something wrong!!!");
+                    break;
             }
-}
+            System.out.println("TOTAL WAGE = " + totalWage);
+        }
+    }
