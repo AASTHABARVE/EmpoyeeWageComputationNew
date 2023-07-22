@@ -28,7 +28,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="UC4_Switch_Case" />
+        <entry key="$PROJECT_DIR$" value="UC5_Calculate_Wage_For_Month" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -119,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690012668262</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="calculate wage for month">
+      <created>1690013883346</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1690013883346</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -128,6 +135,7 @@
     <MESSAGE value="Daily wage calculation" />
     <MESSAGE value="Part time wage calculation" />
     <MESSAGE value="switch case" />
-    <option name="LAST_COMMIT_MESSAGE" value="switch case" />
+    <MESSAGE value="calculate wage for month" />
+    <option name="LAST_COMMIT_MESSAGE" value="calculate wage for month" />
   </component>
 </project>
