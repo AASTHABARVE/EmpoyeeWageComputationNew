@@ -20,9 +20,15 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="UC3_Part_Time_Emp_Wage" />
+        <entry key="$PROJECT_DIR$" value="UC4_Switch_Case" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -106,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690011723604</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="switch case">
+      <created>1690012668262</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1690012668262</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -114,6 +127,7 @@
     <MESSAGE value="Employee present or absent" />
     <MESSAGE value="Daily wage calculation" />
     <MESSAGE value="Part time wage calculation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Part time wage calculation" />
+    <MESSAGE value="switch case" />
+    <option name="LAST_COMMIT_MESSAGE" value="switch case" />
   </component>
 </project>
